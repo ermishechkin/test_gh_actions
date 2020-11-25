@@ -1,0 +1,13 @@
+name: Workflow B
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print message B
+        run: echo "Message from workflow B!!!"

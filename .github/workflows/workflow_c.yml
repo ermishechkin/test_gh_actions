@@ -1,0 +1,11 @@
+name: Workflow C
+
+on:
+  push:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print message C
+        run: echo "Message from workflow C!!!"
